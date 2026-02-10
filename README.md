@@ -1,5 +1,4 @@
 
-//Simple C++ program to check happy year using function and bool
 #include <iostream>
 using namespace std;
 bool isHappy(int year){
