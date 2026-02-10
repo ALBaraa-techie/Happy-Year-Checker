@@ -1,27 +1,30 @@
+# Happy Year Checker (C++)
 
-#include <iostream>
-using namespace std;
-bool isHappy(int year){
-   if(year%4==0){
-      return true;
-   }
-   else{
-      return false;
-   }
-}
-//----------------------------------------
-int main(){
+A simple C++ program that checks whether a year is a Happy Year.
 
-int Year;
-  cout<<"Enter the year:"<<endl;
-  cin>>Year;
+## Description
+This program asks the user to enter a year and checks if it is divisible by 4.
+If it is, the program prints **Happy Year 🎉**.
+Otherwise, it prints **Not a Happy Year**.
 
-  if(isHappy(Year)){
-   cout<<"Happy Year";
-  }
-  else{
-   cout<<"Normal Year";
-  }
-     
-   return 0;
-}
+## How to Use
+1. Compile the program.
+2. Run the program.
+3. Enter a year.
+4. View the result.
+
+## Example
+
+Enter the year:
+2024
+Happy Year 
+
+
+## Concepts Used
+- Functions
+- bool
+- if / else
+- User input
+
+
+
